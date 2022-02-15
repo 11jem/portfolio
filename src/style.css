@@ -150,6 +150,10 @@ p {
   padding-bottom: 16rem;
 }
 
+.hero-text p {
+  line-height: 1.5;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -221,6 +225,7 @@ p {
 }
 
 .about-section p {
+  line-height: 1.5;
   padding: 0 8rem 2rem 0;
 }
 
@@ -319,12 +324,15 @@ hr {
   align-items: center;
 }
 
+.project-more-link {
+  color: var(--scrollbar);
+}
+
 .project-more-link:link {
   display: inline-block;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--scrollbar);
   border-bottom: 1px solid var(--scrollbar);
   transition: all 0.3s;
   margin-top: 3rem;
