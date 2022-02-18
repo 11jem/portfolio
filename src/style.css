@@ -104,7 +104,6 @@ p {
 .nav-items {
   display: flex;
   list-style-type: none;
-  /* width: 50rem; */
   justify-content: space-around;
   font-size: 3rem;
 }
@@ -112,19 +111,25 @@ p {
 .nav-items li {
   width: 20rem;
   text-decoration: none;
+  transition: all 0.3s;
+  color: var(--main-color-light);
+
 }
 
-.nav-items a{
+.nav-items a:link {
   color: #d4d2db;
   display: inline-block;
+  background-position: bottom;
   transition: all 0.4s ease;
 }
 
-.nav-items a:hover,
-.nav-items a:active {
+.nav-items a:hover {
   color: #fff;
-  border-bottom: 1px solid #fff;
-
+  /* border-bottom: 1px solid #fff; */
+  background-image: linear-gradient(100deg, #2b8a3e 0%, #8ce99a 100%);
+  background-repeat: no-repeat;
+  background-size: 98% 0.25rem;
+  background-position: 0 100%;
 }
 
 .hero-area {
@@ -337,6 +342,7 @@ hr {
   transition: all 0.3s;
   margin-top: 3rem;
 }
+
 .project-more-link:hover, 
 .project-more-link:active {
   color: var(--gray);
@@ -396,7 +402,7 @@ hr {
   .skill-icon {
     height: 5.8rem;
     width: 5.8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
     margin-right: 3.2rem;
   }
 }
@@ -493,7 +499,7 @@ hr {
   .skill-icon {
     height: 5rem;
     width: 5rem;
-    margin-bottom: 3.2rem;
+    margin-bottom: 3rem;
     margin-right: 3rem;
   }
 
@@ -508,6 +514,10 @@ hr {
 
   .project-more-link:link {
     font-size: 1.6rem;
+  }
+
+  .hero-p {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -532,6 +542,10 @@ hr {
 
   .hero-title p {
     font-size: 1.8rem;
+  }
+
+  .hero-p {
+    margin-bottom: 1.2rem;
   }
 
   .hero-text {
@@ -630,6 +644,10 @@ hr {
     margin-right: 3rem;
   }
 
+  .hero-p {
+    margin-bottom: 0.6rem;
+  }
+
   .headshot {
     max-width: 20rem;
     max-height: 20rem;
@@ -690,6 +708,10 @@ hr {
 
   .hero-text p {
     font-size: 1.6rem;
+  }
+
+  .hero-p {
+    margin-bottom: 0.4rem;
   }
 
   .hero-text {
