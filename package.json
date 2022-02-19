@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.17",
+    "postcss": "^8.4.6",
+    "shx": "^0.3.4"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11jem/portfolio.git"
+  },
+  "author": "Jemuel Cabalida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/11jem/portfolio/issues"
+  },
+  "homepage": "https://github.com/11jem/portfolio#readme"
+}

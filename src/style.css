@@ -13,7 +13,7 @@
   --gray: #555;
   --scrollbar: #5f3dc4;
   --white-aplha-40: rgba(255, 255, 255, 0.4);
-  --white-aplha-25: rgba(255, 255, 255, 0.25)
+  --white-aplha-10: rgba(255, 255, 255, 0.1);
   --white-aplha-main: rgba(105, 97, 128, 0.644);
   --backdrop-filter-blur: blur(5px);
 }
@@ -113,7 +113,6 @@ p {
   text-decoration: none;
   transition: all 0.3s;
   color: var(--main-color-light);
-
 }
 
 .nav-items a:link {
@@ -163,7 +162,7 @@ p {
 
 .btn {
   line-height: 1.5;
-  background-color: var(--white-aplha-25);
+  background-color: var(--white-aplha-10);
   border: 1px solid var(--white-aplha-40);
   padding: 1rem 2rem;
   display: inline-block;
@@ -177,7 +176,7 @@ p {
   position: relative;
   overflow: hidden;
   vertical-align: middle;
-  box-shadow: 9px 15px 39px -13px rgba(0,0,0,0.6);
+  box-shadow: 9px 15px 39px -13px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease;
 }
 
@@ -343,7 +342,7 @@ hr {
   margin-top: 3rem;
 }
 
-.project-more-link:hover, 
+.project-more-link:hover,
 .project-more-link:active {
   color: var(--gray);
   border-bottom: 1px solid #fff;
@@ -369,7 +368,6 @@ hr {
 .btn-right {
   margin-left: 1rem;
 }
-
 
 /*********************************/
 /* MEDIA QUERIES */
@@ -398,7 +396,7 @@ hr {
     left: 15%;
     bottom: -40%;
   }
-  
+
   .skill-icon {
     height: 5.8rem;
     width: 5.8rem;
@@ -411,7 +409,7 @@ hr {
   .about-section p {
     padding: 0 2rem 0 2rem;
   }
-} 
+}
 
 @media only screen and (max-width: 1000px) {
   .hero-title {
@@ -443,7 +441,7 @@ hr {
   .nav-items.show {
     display: block;
   }
-  
+
   .nav-items {
     display: none;
     background-color: var(--main-color-dark);
@@ -495,7 +493,7 @@ hr {
     left: 15%;
     bottom: -25%;
   }
-  
+
   .skill-icon {
     height: 5rem;
     width: 5rem;
@@ -559,11 +557,11 @@ hr {
   }
 
   .socials-item {
-    margin: 0.4rem
+    margin: 0.4rem;
   }
 
   .sub-heading {
-    font-size: 3.2rem; 
+    font-size: 3.2rem;
   }
 
   .information p {
@@ -594,7 +592,7 @@ hr {
     left: 15%;
     bottom: -30%;
   }
-  
+
   .skill-icon {
     height: 5rem;
     width: 5rem;
@@ -628,7 +626,6 @@ hr {
   .information {
     margin-bottom: 6rem;
   }
-
 }
 
 @media only screen and (max-width: 660px) {
@@ -636,7 +633,7 @@ hr {
     left: 15%;
     bottom: -16%;
   }
-  
+
   .skill-icon {
     height: 3.5rem;
     width: 3.5rem;
@@ -701,7 +698,7 @@ hr {
   .hero-area {
     justify-content: space-around;
   }
-  
+
   .hero-title {
     font-size: 3.2rem;
   }
@@ -725,11 +722,11 @@ hr {
   }
 
   .socials-item {
-    margin: 0.4rem
+    margin: 0.4rem;
   }
 
   .sub-heading {
-    font-size: 2.6rem; 
+    font-size: 2.6rem;
   }
 
   .information p {
@@ -771,7 +768,7 @@ hr {
     left: 12%;
     bottom: -12%;
   }
-  
+
   .skill-icon {
     height: 3.3rem;
     width: 3.3rem;
@@ -791,7 +788,7 @@ hr {
     left: 15%;
     bottom: -6%;
   }
-  
+
   .skill-icon {
     height: 2rem;
     width: 2rem;
@@ -815,7 +812,7 @@ hr {
   .hero-area {
     justify-content: space-around;
   }
-  
+
   .hero-title {
     font-size: 3rem;
   }
@@ -835,11 +832,11 @@ hr {
   }
 
   .socials-item {
-    margin: 0.4rem
+    margin: 0.4rem;
   }
 
   .sub-heading {
-    font-size: 2.6rem; 
+    font-size: 2.6rem;
   }
 
   .information p {
@@ -872,7 +869,7 @@ hr {
     left: 10%;
     bottom: -8%;
   }
-  
+
   .skill-icon {
     height: 1.8rem;
     width: 1.8rem;

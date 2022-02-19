@@ -1,3 +1,6 @@
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 const settingsIcon = document.getElementById("settings-icon");
 const navList = document.getElementById("nav-items");
 const email = document.getElementById("email");
